@@ -16,7 +16,7 @@ from org.sleuthkit.autopsy.ingest import IngestServices
 from org.sleuthkit.autopsy.casemodule import Case
 from org.sleuthkit.autopsy.casemodule.services import Services
 from org.sleuthkit.autopsy.casemodule.services import FileManager
-from alchemyapi_python.alchemyapi import AlchemyAPI
+from alchemyapi_python_new.alchemyapi import AlchemyAPI
 import json
 
 class SampleJythonDataSourceIngestModule(DataSourceIngestModule):
